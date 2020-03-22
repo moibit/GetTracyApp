@@ -98,7 +98,7 @@ footer.style-8 a:hover,
 .screenshot-container #previous, .screenshot-container #next,
 .cps-column-2-feature .cps-feature-icon,
 footer.style-9 .cps-socials a:hover{
-    color: #158d9c;
+    color: #183f78;
 }
 
 
@@ -144,7 +144,7 @@ footer.style-8 .cps-socials a:hover,
 .page-header.style-9,
 .cps-gray-bg .cps-column-2-feature .cps-feature-icon,
 footer.style-9{
-    background-color: #158d9c;
+    background-color: #183f78;
 }
 
 
@@ -162,7 +162,7 @@ footer.style-9{
 .cps-banner.style-4,
 .cps-banner.style-14 {
     background-image: none;
-    background-color: #158d9c;
+    background-color: #183f78;
 }
 
 
@@ -174,9 +174,9 @@ footer.style-9{
 .cps-contact-form.style-2 select,
 .cps-contact-form.style-2 textarea,
 .cps-404-content [type=submit]{
-    -o-border-image: linear-gradient(to right, #158d9c, #ddd658);
-    border-image: -webkit-gradient(linear, left top, right top, from(#158d9c), to(#ddd658));
-    border-image: linear-gradient(to right, #158d9c, #ddd658);
+    -o-border-image: linear-gradient(to right, #183f78, #2ed88e);
+    border-image: -webkit-gradient(linear, left top, right top, from(#183f78), to(#2ed88e));
+    border-image: linear-gradient(to right, #183f78, #2ed88e);
 }
 
 
@@ -219,8 +219,8 @@ footer.style-9{
 .account-form [type=submit],
 .comingsoon-footer,
 .preloader-round{
-    background-image: -webkit-gradient(linear, left top, right top, from(#158d9c), to(#ddd658));
-    background-image: linear-gradient(to right, #158d9c, #ddd658);
+    background-image: -webkit-gradient(linear, left top, right top, from(#183f78), to(#2ed88e));
+    background-image: linear-gradient(to right, #183f78, #2ed88e);
 }
 
 
@@ -235,8 +235,8 @@ footer.style-9{
 .navbar-default.style-8 .navbar-nav>li.signup-item>a:hover,
 .cps-banner.style-9 .cps-banner-form [type=submit]:hover,
 .account-form [type=submit]:hover{
-    background-image: -webkit-gradient(linear, left top, right top, from(#158d9c), to(#158d9c));
-    background-image: linear-gradient(to right, #158d9c 0%, #158d9c 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#183f78), to(#183f78));
+    background-image: linear-gradient(to right, #183f78 0%, #183f78 100%);
 }
 
 
@@ -249,8 +249,8 @@ footer.style-9{
 .cps-package.style-5 .cps-pack-price,
 .cps-post.style-3 .cps-post-title,
 .cps-404-title{
-    background: -webkit-gradient(linear, left top, right top, from(#158d9c), to(#ddd658));
-    background: linear-gradient(to right, #158d9c 0%, #ddd658 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#183f78), to(#2ed88e));
+    background: linear-gradient(to right, #183f78 0%, #2ed88e 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -267,7 +267,7 @@ footer.style-9{
 .cps-service-box.style-6:hover .cps-service-title,
 .cps-service.style-4 .cps-service-icon span,
 .cps-service.style-5 .cps-service-icon span {
-    -webkit-text-fill-color: #158d9c;
+    -webkit-text-fill-color: #183f78;
 }
 
 
@@ -299,7 +299,7 @@ a.page-numbers.current,
 .sidebar .tags a:hover,
 .post-single .post-entry blockquote,
 .cps-column-2-feature .cps-feature-icon{
-    border-color: #158d9c;
+    border-color: #183f78;
 }
 
 
@@ -307,8 +307,8 @@ a.page-numbers.current,
 
 .cps-cta.style-3 .cps-cta-text a,
 .cps-cta.style-4 .cps-cta-text a {
-    -webkit-text-decoration-color: #158d9c;
-    text-decoration-color: #158d9c;
+    -webkit-text-decoration-color: #183f78;
+    text-decoration-color: #183f78;
 }
 
 
@@ -317,7 +317,7 @@ a.page-numbers.current,
 a:hover,
 .cps-contact-form [type=submit]:hover,
 .sm-play-btn:hover {
-    color: #ddd658;
+    color: #2ed88e;
 }
 
 
@@ -329,13 +329,13 @@ a:hover,
 .btn.btn-primary:hover:visited,
 .cps-banner-slider-2 .slick-dots li button,
 .navbar-default.style-10 .navbar-nav>li.login-item>a, .cps-banner.style-13 .cps-banner-form [type=submit]{
-    background-color: #ddd658;
+    background-color: #2ed88e;
 }
 
 
 /*** Secondary Border ***/
 .navbar-default.style-10 .navbar-nav>li.login-item>a {
-    border-color: #ddd658;
+    border-color: #2ed88e;
 }
 
 
@@ -404,22 +404,22 @@ textarea {
 
 @media screen and (max-width: 991px) {
     .navbar-default .navbar-toggle {
-        border-color: #158d9c;
-        background-color: #158d9c;
+        border-color: #183f78;
+        background-color: #183f78;
     }
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
-        background-color: #158d9c;
+        background-color: #183f78;
     }
     .navbar-default .navbar-toggle.collapsed .icon-bar {
-        background-color: #158d9c;
+        background-color: #183f78;
     }
     .navbar-default.style-2 .navbar-toggle .icon-bar,
     .navbar-default.style-3 .navbar-toggle .icon-bar,
     .navbar-default.style-6 .navbar-toggle .icon-bar,
     .navbar-default.style-7 .navbar-toggle .icon-bar,
     .navbar-default.style-10 .navbar-toggle .icon-bar{
-        background-color: #158d9c;
+        background-color: #183f78;
     }
     .navbar-default.style-2 .navbar-collapse,
     .navbar-default.style-3 .navbar-collapse,
@@ -427,7 +427,7 @@ textarea {
     .navbar-default.style-7 .navbar-collapse,
     .navbar-default.style-10 .navbar-collapse,
     .cps-banner .cps-banner-item-14{
-        background-color: #158d9c;
+        background-color: #183f78;
     }
 }
 
@@ -437,10 +437,10 @@ textarea {
     .navbar-default.style-6,
     .navbar-default.style-7,
     .navbar-default.style-10{
-        background-color: #158d9c;
+        background-color: #183f78;
     }
     .navbar-default .navbar-toggle .icon-bar{
-        background-color: #158d9c !important;
+        background-color: #183f78 !important;
     }
 }
 

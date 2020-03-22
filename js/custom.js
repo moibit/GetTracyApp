@@ -217,7 +217,7 @@ jQuery(document).ready(function ($) {
                 };
 
             // populate on startup
-            carousel.panelCount = 12;
+            carousel.panelCount = 8;
             carousel.modify();
 
             for (var i = 0; i < 2; i++) {
