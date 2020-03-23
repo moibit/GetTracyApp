@@ -45,7 +45,9 @@
     </script>
 
     <style>
-        div#banner {
+        div#banner,
+        #contact,
+        #subscription-area {
             background: #193f78;
         }
         .navbar-default .navbar-brand {
@@ -77,8 +79,10 @@
         #why-tracy .cps-section-title {
             color: #193f78;
         }
-        #why-tracy {
+        #why-tracy,
+        #faq {
             background: #D6EBFE;
+            opacity: 1;
         }
         .cps-banner-slider-2-screen.slick-slider {
             max-width: 260px;
@@ -138,8 +142,41 @@
         .screenshot-container #next {
             right: -220px;
         }
+        .short-divider {
+            height: 2px;
+            width: 150px;
+            background: #193f78; 
+            display: inline-block;
+            margin-bottom: 10px;
+        }
         .cps-socials {
             margin-bottom: 10px;
+        }
+        .cps-faq-accordion .panel-group .panel.panel-default + .panel {
+            margin-top: 0;
+        }
+        .cps-faq-accordion .panel-group .panel.panel-default {
+            border-top: 1px solid #305285;
+        }
+        .cps-faq-accordion.style-2 .panel-group .panel.panel-default > .panel-heading > .panel-title > a {
+            background: transparent;
+            color: #305285;
+            box-shadow: none;
+        }
+        .cps-faq-accordion .panel-group .panel.panel-default > .panel-heading + .panel-collapse > .panel-body {
+            margin-bottom: 10px;
+        }
+        .cps-faq-accordion .panel-group .panel.panel-default + .panel:last-child {
+            border-bottom: 1px solid #305285;
+        }
+
+        footer.style-8 {
+            background: #132C4D;
+            color: #ddd;
+        }
+        footer.style-8 a {
+            color: white;
+            text-decoration: underline;
         }
     </style>
 
@@ -202,7 +239,7 @@
                         <div class="row">
                             <div class="col-xs-12 sm-text-center">
                                 <h1 class="cps-banner-title">Be Safe. Keep moving!</h1>
-                                <p class="cps-banner-text">Tracy is your digital companion for safe movement.</p>
+                                <p class="cps-banner-text">Tracy is your digital companion for navigating through Coronavirus COVID-19 and beyond.</p>
                                 <div class="cps-cta-download">
                                     <a class="btn btn-white" href="#contact"><i class="fab fa-app-store"></i>App Store</a>
                                     <a class="btn btn-white" href="#contact"><i class="fab fa-google-play"></i>Google Play Store</a>
@@ -305,7 +342,7 @@
             </div>
             <!-- Features -->
             <div class="cps-section cps-section-padding cps-bottom-0" id="app-screens">
-                <!-- <div class="container">
+                 <!--<div class="container">
                     <div class="row">
                         <div class="mocked-features style-2">
                             <div class="col-sm-2 hidden-sm hidden-xs"></div>
@@ -363,14 +400,15 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-            </div>
+                </div>-->
+            </div> 
             <!-- Features End -->
 
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-xs-12">
                         <div class="cps-section-header text-center">
+                            <div class="short-divider"></div>
                             <h3 class="cps-section-title">Take a look at the TRACY App</h3>
                             <p class="cps-section-text"></p>
                         </div>
@@ -409,222 +447,13 @@
         </div>
         <!-- How it works video end -->
 
-        <!-- Screenshot carousel -->
-        <!-- <div class="cps-section cps-section-padding" id="app_screens">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-xs-12">
-                        <div class="cps-section-header text-center">
-                            <h3 class="cps-section-title">Take a look at the TRACY App</h3>
-                            <p class="cps-section-text"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 screenshot-container-block">
-                        Slider main container
-                        <div class="screenshot-container">
-                            Additional required wrapper
-                            <div id="screenshot-carousel">
-                                Slides
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_1.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_2.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_3.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_4.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_5.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_6.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_1.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_2.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_3.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_4.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_5.jpg" alt="Screenshot"></div>
-                                <div class="screenshot-item"><img class="img-responsive" src="assets/images/screenshot/roll_6.jpg" alt="Screenshot"></div>
-                            </div>
-                            <p id="navigation">
-                                <button id="previous" class="ti-arrow-left" data-increment="-1"></button>
-                                <button id="next" class="ti-arrow-right" data-increment="1"></button>
-                            </p>
-                        </div>
-                        <div class="screenshot-mock">
-                            <img class="img-responsive" src="assets/images/screenshot/screen-mock-3.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Screenshot carousel ending -->
-
-       
-        
-
-        <!-- Team Section -->
-        <!-- <div class="cps-section cps-gradient-bg cps-section-padding" id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 col-xs-12">
-                        <div class="cps-section-header text-center">
-                            <h3 class="cps-section-title">Our Team</h3>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="cps-team">
-                    <div class="row">
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/anantha.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">ANANTHA KRISHNAN</h4>
-                                        <p class="cps-member-position">Founder, CEO</p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/anantha-r-k-237a762/"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/karthik.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">KARTHIK BALASUBRAMANIAN</h4>
-                                        <p class="cps-member-position">Founder, CBO</p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/balakarthik/"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/ken.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">KEN REED</h4>
-                                        <p class="cps-member-position">Member of the Advisory Board</p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/ken-reed-b763681"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/lisa.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">LISA DIAZ NASH</h4>
-                                        <p class="cps-member-position">Member of the Advisory Board</p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/lisanash"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-
-                    <div class="row">
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/lawrence.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">Lawrence Lanzilli</h4>
-                                        <p class="cps-member-position"></p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/lanzilli/"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/brett.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">Brett Miller</h4>
-                                        <p class="cps-member-position"></p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/brett-miller-209a4b8/"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/chris.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">Chris Osborne</h4>
-                                        <p class="cps-member-position"></p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/chris-osborn/"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-xs-6">
-                            <div class="cps-member style-3">
-                                <div class="cps-member-image">
-                                    <img class="img-responsive" src="assets/images/team/nagi.jpg" alt="Member Image">
-                                </div>
-                                <div class="cps-member-hover">
-                                    <div class="cps-member-hover-content">
-                                        <h4 class="cps-member-name">Nagi Nagalingam</h4>
-                                        <p class="cps-member-position"></p>
-                                        <div class="cps-member-socials">
-                                            <a href="https://www.linkedin.com/in/lnagalingam/"><i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Team Section -->
-
-
         <!-- FAQ -->
         <div class="cps-section cps-section-padding" id="faq">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-xs-12">
                         <div class="cps-section-header text-center">
+                            <div class="short-divider"></div>
                             <h3 class="cps-section-title">Frequently Asked Questions</h3>
                         </div>
                     </div>
@@ -843,10 +672,10 @@
 
                 <div class="row">
                     <div class="col-md-4 col-md-offset-2 col-xs-12 text-center">
-                        <a class="btn btn-white" href="https://t.me/projecttracy" target="_blank"><i class="fab fa-telegram"></i>Tracy telegram community</a>
+                        <a class="btn btn-white" href="https://telegram.me/projecttracy" target="_blank"><i class="fab fa-telegram"></i>Tracy telegram community</a>
                     </div>
                     <div class="col-md-4 col-xs-12 text-center">
-                        <a class="btn btn-white" href="https://t.me/karnataka_Covid19" target="_blank"><i class="fab fa-telegram"></i>COVID19 Karnataka-Q&A forum</a>
+                        <a class="btn btn-white" href="https://telegram.me/karnataka_Covid19" target="_blank"><i class="fab fa-telegram"></i>COVID19 Karnataka-Q&A forum</a>
                     </div>
                 </div>
 
@@ -913,9 +742,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-xs-12 sm-text-center">
-                    <a class="cps-footer-logo" href="home-agency.html">
-                        <!-- <img src="assets/images/logo-footer-c3.png" alt="..."> -->
-                    </a>
                 </div>
                 <div class="col-md-4 col-xs-12 text-center">
                     <div class="cps-socials">
@@ -924,10 +750,9 @@
                         <a target="_blank" href="https://github.com/moibit/tracy-mobile-app"><i class="fab fa-github"></i></a>
                         <a target="_blank" href="https://www.instagram.com/GetTracyApp/"><i class="fab fa-instagram"></i></a>
                     </div>
-                    <p class="sm-text-center">© 2020, <a style="color: green" href="http://aicumen.com">Aicumen Technologies</a>. All Rights Reserved</p>
+                    <p class="sm-text-center">© 2020, <a href="http://aicumen.com">Aicumen Technologies</a>. All Rights Reserved</p>
                 </div>
                 <div class="col-md-4 col-xs-12">
-                    
                 </div>
             </div>
         </div>
