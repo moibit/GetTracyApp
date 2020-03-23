@@ -1,0 +1,168 @@
+div#banner,
+#contact,
+#subscription-area {
+    background: #193f78;
+}
+.navbar-default .navbar-brand {
+    margin: 0;
+    padding: 10px 15px;
+}
+.navbar-default.affix .navbar-brand {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar-brand>img {
+    max-width: 100px;
+}
+html .cps-curved-bg-2:before {
+    background-image: none !important;
+}
+
+a.btn.btn-white {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #193f78;
+    font-size: 15px;
+}
+a.btn i {
+    margin-right: 5px;
+}
+#why-tracy,
+#why-tracy .cps-section-title {
+    color: #193f78;
+}
+#why-tracy,
+#faq {
+    background: #D6EBFE;
+    opacity: 1;
+}
+.cps-service.style-5 .cps-service-title {
+    text-transform: uppercase;
+}
+.cps-service .cps-service-text {
+    line-height: 1.5;
+}
+.cps-faq-accordion .panel-group .panel.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    line-height: 1.4;
+}
+.cps-banner-slider-2-screen.slick-slider {
+    max-width: 260px;
+    margin: 0 auto;
+}
+.cps-banner-slider-2 .slick-dots li button {
+    background: #fff;
+}
+.cps-banner-slider-2 .slick-dots li.slick-active button {
+    background: #2ed88e;
+}
+.cps-banner-screens .cps-banner-slider-2-screen {
+    border-radius: 0;
+}
+.cps-banner-screens .cps-screenmock {
+    top: -52px;
+}
+.cps-banner-slider-2-screen .slick-slide {
+    padding: 0 9px;
+}
+.cps-banner-screen-wrap.second {
+    top: 0;
+    position: relative;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.cps-banner-screen-wrap.second .cps-banner-screens {
+    width: 250px;
+}
+.cps-banner-screen-wrap.second .cps-banner-slider-2-screen {
+    margin-top: -6px;
+}
+.screenshot-container-block {
+    padding-top: 30px;
+}
+.screenshot-container-block .screenshot-mock {
+    top: -12px;
+}
+.screenshot-container-block #screenshot-carousel {
+    margin-top: -77px;
+}
+.screenshot-container-block .screenshot-container {
+    width: 264px;
+    margin: 8px auto 40px;
+}
+#screenshot-carousel .screenshot-item {
+    left: 0;
+    padding: 0 25px;
+}
+#screenshot-carousel .screenshot-item img {
+    border-radius: 0;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+.screenshot-container #previous {
+    left: -220px;
+}
+.screenshot-container #next {
+    right: -220px;
+}
+.short-divider {
+    height: 2px;
+    width: 150px;
+    background: #193f78; 
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.cps-socials {
+    margin-bottom: 10px;
+}
+.cps-faq-accordion .panel-group .panel.panel-default + .panel {
+    margin-top: 0;
+}
+.cps-faq-accordion .panel-group .panel.panel-default {
+    border-top: 1px solid #305285;
+}
+.cps-faq-accordion.style-2 .panel-group .panel.panel-default > .panel-heading > .panel-title > a {
+    background: transparent;
+    color: #305285;
+    box-shadow: none;
+}
+.cps-faq-accordion .panel-group .panel.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    margin-bottom: 10px;
+}
+.cps-faq-accordion .panel-group .panel.panel-default + .panel:last-child {
+    border-bottom: 1px solid #305285;
+}
+
+footer.style-8 {
+    background: #132C4D;
+    color: #ddd;
+}
+footer.style-8 a {
+    color: white;
+    text-decoration: underline;
+}
+@media screen and (max-width: 991px) {
+    html .screenshot-container #next {
+        right: 60px;
+        top: calc(100% + 50px);
+    }
+    html .screenshot-container #previous {
+        left: 60px;
+        top: calc(100% + 50px);
+    }
+    html .screenshot-container-block .screenshot-mock {
+        top: -5px;
+    }
+    html .screenshot-container-block {
+        padding-top: 30px;
+    }
+    #contact a.btn {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 579px) {
+    html .cps-cta-download a {
+        max-width: 100%;
+        display: inline-block;
+    }
+}
