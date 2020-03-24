@@ -78,10 +78,10 @@ a.btn i {
     margin-top: -6px;
 }
 .screenshot-container-block {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 .screenshot-container-block .screenshot-mock {
-    top: -12px;
+    top: -1px;
 }
 .screenshot-container-block #screenshot-carousel {
     margin-top: -77px;
@@ -159,7 +159,16 @@ footer.style-8 a {
         margin-bottom: 15px;
     }
 }
-
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-brand {
+        padding: 3px 15px;
+    }
+    .navbar-default.style-2 .navbar-toggle.collapsed {
+        border: 0;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+}
 @media screen and (max-width: 579px) {
     html .cps-cta-download a {
         max-width: 100%;
