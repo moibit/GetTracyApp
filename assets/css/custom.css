@@ -1,6 +1,7 @@
 div#banner,
 #contact,
-#subscription-area {
+#subscription-area,
+#whitepaper {
     background: #193f78;
 }
 .navbar-default .navbar-brand {
@@ -130,6 +131,14 @@ a.btn i {
 }
 .cps-faq-accordion .panel-group .panel.panel-default + .panel:last-child {
     border-bottom: 1px solid #305285;
+}
+
+#media .cps-post.style-2 .cps-post-thumb {
+    padding: 10px;
+    text-align: center;
+}
+#media .cps-post.style-2 .cps-post-thumb .img-responsive {
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.0.7);
 }
 
 footer.style-8 {
